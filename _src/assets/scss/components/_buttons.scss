@@ -1,0 +1,15 @@
+.blog-article__link{
+    width:76px;
+    height: 45px;
+    border: 2px solid $color_bright-orange;
+    border-radius: 30px;
+    background-color:$color_whiteSnow;
+    a{
+        text-decoration: none;
+        color:$color_bright-orange;
+        font-size:20px;
+        font-family: $ff-text;
+        font-weight: medium;
+
+    }
+}
