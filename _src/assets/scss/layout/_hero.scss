@@ -1,15 +1,12 @@
-.hero {
+.hero__image {
     height: 520px;
     width: 100%;
-    background: url(../images/cover.jpg) no-repeat center center fixed;
+    background: url(../images/cover.jpg) no-repeat center center;
     background-size: cover;
-    position:relative;
     display:flex;
     flex-direction: column;
-    justify-content: center;    
+    align-items: center; 
 }
-
-
 .main-title {
     color:$color_whiteSnow;
     text-transform:uppercase;
@@ -20,15 +17,15 @@
     margin-top: 280px;
     margin-bottom:10px;
     font-weight: 700;
-    max-width: 300px;        
+    
 }
 .title__comment{
     color:$color_whiteSnow;
     font-family: $ff-text;
-    text-align: center;
     font-weight: 700;
     font-size: 15px;
     line-height: 21px;
     font-weight: 400;
+    max-width: 290px; 
 }
   
