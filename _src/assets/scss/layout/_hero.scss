@@ -1,0 +1,10 @@
+.hero{
+    background-image: url(images/cover.jpg);
+    position:relative;
+    &:h1{
+        color:$color_whiteSnow;
+    }
+    &:h2{
+        color:$color_whiteSnow;
+    }
+}
