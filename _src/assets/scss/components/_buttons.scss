@@ -13,3 +13,20 @@
 
     }
 }
+
+.grid__button{
+    width:184px;
+    height: 45px;
+    border: 2px solid $color_bright-orange;
+    border-radius: 30px;
+    background-color:$color_bright-orange;
+    a{
+        text-decoration: none;
+        color:$color_whiteSnow;
+        font-size:20px;
+        font-family: $ff-text;
+        font-weight: medium;
+        text-align: center;
+
+    }
+}

@@ -1,0 +1,35 @@
+.grid__container{
+    width:100vw;
+    background-color: $color_ice-blue;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+
+    .grid__title{
+        font-family:$ff-title;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .grid__card{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        color:$color_black;
+        margin: 0 70px;
+        
+        .grid__card--title{
+            font-family:$ff-title;
+            
+        }
+        .grid__card--text{
+            font-family: $ff-text;
+            text-align: center;
+
+        }
+
+
+    }
+    
+}
