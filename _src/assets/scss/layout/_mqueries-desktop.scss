@@ -1,0 +1,36 @@
+@media all and (min-width:1200px){
+    .main-title{
+        font-size: 100px;
+        line-height: 132px;
+    }
+    //BLOG
+
+    .blog__container{
+        margin:60px 0;
+        padding:0;
+        max-width:730px;
+        position:relative;
+        left:50%;
+        transform: translateX(-50%);
+    }
+
+    //GRID
+
+    .grid__container{
+        padding: 0 65px;
+        .grid__card{
+            max-width: 350px;
+        }
+        
+    }
+
+    //FOOTER
+    .footer__container{
+        padding: 0;
+        display: flex;
+        justify-content: center; 
+    }
+
+
+
+}

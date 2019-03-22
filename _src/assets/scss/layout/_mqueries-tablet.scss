@@ -1,0 +1,95 @@
+//TABLET
+
+@media all and (min-width: 768px){
+    .hero__image{
+        height: 720px;
+    }
+    
+    .main-title{
+        font-size:80px;
+        line-height:106px;
+        max-width:690px;
+    }
+    .title__comment{
+        font-size:24px;
+        max-width:690px;
+    }
+    // BLOG
+
+    .blog__container{
+        margin: 30px 0 60px;
+        padding:0 39px;
+    }
+
+    // GRID
+    .grid__container{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 120px 1fr 155px;
+        padding:0 24px;
+        position:relative;
+        left:50%;
+        transform: translateX(-50%);
+        
+        
+        .grid__title{
+            font-size: 26px;
+            grid-column: span 3;         
+        }
+        .grid__card{
+            margin:0 15px;
+
+            .grid__card--title{
+                font-size: 24px;
+                line-height: 30px;
+                margin-bottom: 14px;
+            }
+            .grid__card--text{
+                font-size:20px;
+            }
+            
+        }
+        .grid__card--button{
+            grid-column: span 3;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    }
+    //FOOTER
+    .footer__container{
+        padding: 0 39px;
+        
+        .footer__wrapper{
+            display: flex;
+            flex-direction: row;
+            height: 240px;
+            margin-top: 45px;
+                                    
+            
+            .footer__nav{
+                width:210px;
+                display:flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin:0;
+            }
+            .footer__social{
+                width:210px;
+                width:210px;
+                display:flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .footer__copyright{
+                width:210px;
+                width:210px;
+                display:flex;
+                flex-direction: column;
+                align-items: flex-start;
+                order: -1;
+            }
+            
+        }
+    }
+}
