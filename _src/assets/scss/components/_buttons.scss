@@ -4,13 +4,18 @@
     border: 2px solid $color_bright-orange;
     border-radius: 30px;
     background-color:$color_whiteSnow;
+    
     a{
         text-decoration: none;
         color:$color_bright-orange;
         font-size:20px;
         font-family: $ff-text;
         font-weight: medium;
-
+        transition: font-size ease-in 0.8s, color ease-in 0.4s;
+            &:hover{
+                font-size: 24px;
+                color:$color_greyish-brown
+            }
     }
 }
 
@@ -20,6 +25,11 @@
     border: 2px solid $color_bright-orange;
     border-radius: 30px;
     background-color:$color_bright-orange;
+    transition: background-color ease-in 0.4s;
+        &:hover{
+            font-size: 32px;
+            background-color:$color_greyish-brown
+        }
     a{
         text-decoration: none;
         color:$color_whiteSnow;
