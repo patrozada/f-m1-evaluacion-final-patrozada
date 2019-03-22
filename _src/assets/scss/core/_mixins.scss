@@ -1,5 +1,13 @@
-@mixin x-centered() {
-    position: absolute;
-    left: 50%;
-    transform: translate(0, -50%);
+@mixin resetList-styles() {
+    list-style: none;    
+    
+}
+
+@mixin footerLink-style(){
+    font-family: $ff-text;
+    font-size:16px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color:$color_whiteSnow;
+    text-align: center;
 }
