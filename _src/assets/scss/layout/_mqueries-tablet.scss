@@ -1,6 +1,6 @@
 //TABLET
 
-@media (min-width: 768px){
+@media all and (min-width: 768px){
     .hero__image{
         height: 720px;
     }
@@ -8,6 +8,10 @@
     .main-title{
         font-size:80px;
         line-height:106px;
+        max-width:690px;
+    }
+    .title__comment{
+        font-size:24px;
         max-width:690px;
     }
     // BLOG
@@ -22,6 +26,9 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 120px 1fr 155px;
         padding:0 24px;
+        position:relative;
+        left:50%;
+        transform: translateX(-50%);
         
         
         .grid__title{
@@ -52,7 +59,7 @@
     //FOOTER
     .footer__container{
         padding: 0 39px;
-        align-items: space-around;
+        
         .footer__wrapper{
             display: flex;
             flex-direction: row;
