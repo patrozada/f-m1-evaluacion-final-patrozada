@@ -1,5 +1,6 @@
 .grid__container{
-    width:100vw;
+    width:100%;
+    overflow-x: hidden;
     background-color: $color_ice-blue;
     display:grid;
     grid-template-columns: 1fr;
